@@ -1,0 +1,22 @@
+# compiled files
+*.class
+
+# log files
+*.log
+
+# Scala-IDE specific
+.scala_dependencies
+.worksheet
+
+# Intellij IDE
+.idea/
+*.iml
+
+# Mac OSX
+.DS_Store
+
+# Native
+*.o
+
+# vagrant
+.vagrant
