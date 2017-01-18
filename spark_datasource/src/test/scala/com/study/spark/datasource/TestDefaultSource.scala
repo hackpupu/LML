@@ -8,7 +8,7 @@ import org.apache.spark.sql.SparkSession
 object TestDefaultSource {
   def main(args: Array[String]): Unit = {
     val spark = SparkSession.builder.appName("study").master("local[*]").getOrCreate()
-    val df = spark.read.format("com.study.spark.datasource").load()
+    val df = spark.read.format("datasource").load()
     df.printSchema()
     df.show()
     println(df.count())

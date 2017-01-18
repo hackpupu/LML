@@ -1,8 +1,7 @@
 package com.study.spark.datasource
 
 import org.apache.spark.sql.SQLContext
-import org.apache.spark.sql.sources.{BaseRelation, DataSourceRegister, RelationProvider, SchemaRelationProvider}
-import org.apache.spark.sql.types.StructType
+import org.apache.spark.sql.sources.{BaseRelation, DataSourceRegister, RelationProvider}
 
 /**
   * Created by dltkr on 2017-01-13.
