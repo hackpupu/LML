@@ -62,3 +62,11 @@ drwxr-xr-x  2 leesak  staff     68  1 18 19:23 archive-tmp
 spark.driver.extraClassPath ${PACKAGE_PATH}/spark-datasource-1.0-SNAPSHOT-jar-with-dependencies.jar
 spark.executor.extraClassPath ${PACKAGE_PATH}/spark-datasource-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
+
+## Example
+```
+val spark = SparkSession.builder.appName("study").master("local[*]").getOrCreate()
+val df = spark.read.format("datasource").load()
+println(df.count())
+df.show()
+```
