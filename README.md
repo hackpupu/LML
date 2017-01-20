@@ -3,9 +3,9 @@ Learning Machine Learning for Studying
 
 # Member
 ###
-hackpupu
-ttamna
-dltkr77
+hackpupu,
+ttamna,
+dltkr77,
 cd80
 
 # Subject
