@@ -15,6 +15,7 @@ cd80
 3. Data Visualization
 4. Spark & Zeppelin
 5. TensorFlow
+Mindmap: https://www.mindmeister.com/677711828#
 
 # LML Goal
 ###
